@@ -1,6 +1,12 @@
 # AngularJSONFormatter
 
+Adds quotation strings to badly formatted JSON.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+
+## Journal
+
+- 2019.08.04 Initial Angular website, Initial input text input and output, function layout, Angular Material [Showcase](https://www.youtube.com/watch?v=BTJ85bStzXM&feature=youtu.be)
 
 ## Development server
 

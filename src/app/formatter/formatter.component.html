@@ -1,0 +1,15 @@
+<p>formatter works!</p>
+
+<!-- <mat-form-field> -->
+  <!-- <textarea matInput placeholder="Input Textarea"></textarea> -->
+  <input type="text" [(ngModel)]="inputTextField" name="inputTextField">
+<!-- </mat-form-field> -->
+
+<button mat-raised-button (click)="formatAction()">Submit</button>
+
+<!-- <mat-form-field> -->
+  <!-- <textarea matInput placeholder="Output Textarea">{{outputTextField}}</textarea> -->
+<!-- </mat-form-field> -->
+
+<p>{{outputTextField}}</p>
+
