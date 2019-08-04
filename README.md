@@ -2,6 +2,8 @@
 
 Adds quotation strings to badly formatted JSON.
 
+Deployed website: https://stephensamonte.github.io/Angular-JSON-Formatter/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
 ## Journal
@@ -16,9 +18,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build & Deploy Website with GitHub Pages
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+To build the website for hosting use: `ng build --prod --output-path docs --base-href /Angular-JSON-Formatter/ --aot=true --optimization=true` which will deploy to: https://stephensamonte.github.io/Angular-JSON-Formatter/ depending on which GitHub account you deploy to.
+
+- Note: you must duplitace index.html and rename it 404.html for the website to work.
+
+Deployed website: https://stephensamonte.github.io/Angular-JSON-Formatter/
 
 ## Running unit tests
 
