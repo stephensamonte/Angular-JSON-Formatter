@@ -1,5 +1,7 @@
 # AngularJSONFormatter
 
+**DISCONTINUED PROJECT BECAUSE THERE ARE SEVERAL TOOLS FOR JSON FORMATTING ALREADY.**
+
 Adds quotation strings to badly formatted JSON.
 
 Deployed website: https://stephensamonte.github.io/Angular-JSON-Formatter/
